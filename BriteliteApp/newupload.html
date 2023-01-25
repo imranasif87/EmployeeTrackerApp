@@ -1,0 +1,344 @@
+﻿<div class="swiper-container swiper-nested">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="slide-inner">
+                <form class="cmxform" id="frmUpload" enctype="multipart/form-data">
+                    <div class="pages_container">
+                        <h2 class="page_title">New Upload</h2>
+                        <ul id="tabsmenu" class="tabsmenu">
+                            <li class="active" id="liimages"><a href="#tabtwo">Images</a></li>
+                            <li><a href="#tabone">Customer Info</a></li>
+                        </ul>
+                        <div id="tabone" class="tabcontent">
+                            <div class="form">
+                                <label>Customer CNIC<span style="color:red; font-size:18px;">*</span></label>
+                                <input type="number" onkeydown="if(this.value.length==13) this.value = this.value.slice(0, - 1);" name="cnic" id="cnic" class="form_input" required />
+                                <label>Name:<span style="color:red; font-size:18px;">*</span></label> 
+                                <input type="text" name="name" class="form_input" required />
+                                <label>Address:<span style="color:red; font-size:18px;">*</span></label>
+                                <textarea name="address" class="form_textarea textarea" required></textarea>
+                                <label>Serial Number:<span style="color:red; font-size:14px;">* (xxxx-xxxxx)</span></label>
+                                <input type="text" name="serial" class="form_input" required />
+                                <label>Type:<span style="color:red; font-size:18px;">*</span></label>
+                                <select name="type" class="form_input" required>
+                                    <option value="">-- Select --</option>
+                                    <option value="L4">L4</option>
+                                    <option value="L9">L9</option>
+                                    <option value="L9+">L9+</option>
+                                    <option value="L9-LTV1">L9-LTV1</option>
+                                    <option value="L9-LTV2">L9-LTV2</option>
+                                    <option value="L9-LTV3">L9-LTV3</option>
+                                    <option value="L16">L16</option>
+                                    <option value="L16+">L16+</option>
+                                    <option value="L16-LTV2">L16-LTV2</option>
+                                    <option value="L16-LTV3">L16-LTV3</option>
+                                </select>
+                                <label>Latitude, Longitude:</label>
+                                <input type="text" id="txtlatlng" name="latlng" required class="form_input" readonly />
+                                <br /><br />
+                                <input type="hidden" id="eid" name="empid" />
+                                <button class="butninfo form_submit" id="submit" name="submit" value="Send Info" type="submit">Send Info</button>
+                            </div>
+                        </div>
+                        <div id="tabtwo" class="tabcontent">
+                            <a href="#" class="butn" onclick="capturePhoto();"><img src="images/icons/photos.png" class="capture" /> Capture</a>
+                            <input type="file" id="galary" class="butn" accept="image/*" name="image">
+
+                            <img src="images/icons/docs.png" class="capture" />
+
+                            <br />
+                            <div id="list"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="scrolltop"><a href="#"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                    </div>
+                </form>
+                <!--End of page container-->
+            </div>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+    <!--<input type="button" value="checkDb" id="btnDb" />-->
+</div>
+
+<script type="text/javascript" src="js/code.js"></script>
+<!--<script src="js/jquery-1.10.1.min.js"></script>-->
+<script>
+    var digits = document.getElementById("cnic");
+
+    function validateLength() {
+        if (digits.value.length == 12) {
+            digits.setCustomValidity('');
+        } else {
+            digits.setCustomValidity("Please enter 13 digits");
+        }
+    }
+    digits.onkeypress = validateLength;
+    ///////////////////////////////////////
+    // Global Variable
+    var images = [];
+    ////////////////////////////////////////////////////////////
+    ////  Capture by camera
+    //  Variable for picture source and return value format.
+    var pictureSource;
+    var destinationType;
+
+    // Loading device API libraries.
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are ready to use.
+    function onDeviceReady() {
+        pictureSource = navigator.camera.PictureSourceType;
+        destinationType = navigator.camera.DestinationType;
+    }
+
+    // The function is called on successful retrieval of photo.
+    function onPhotoDataSuccess(imageData) {
+        var list = document.getElementById('list');
+        var img = '<img class="thumb" src="data:image/jpeg;base64,' + imageData + '" />';
+        list.innerHTML += img;
+        images.push("data:image/jpeg;base64," + imageData);
+    }
+
+    // This function will execute on button click.
+    function capturePhoto() {
+        // Take picture using device camera and retrieve image as base64-encoded string
+        navigator.camera.getPicture(onPhotoDataSuccess, onFail, {
+            quality: 50,
+            destinationType: destinationType.DATA_URL
+        });
+    }
+
+    // This function will be called if some thing goes wrong.
+    function onFail(message) {
+        alert('Failed because: ' + message);
+    }
+
+    /////////////////////////////////////////////////////////////////////
+    ///// Get photo from gallery
+    $('#galary').change(function () {
+        handleFileSelect($("#galary")[0].files);
+    });
+    function handleFileSelect(files) {
+
+        // Loop through the FileList and render image files as thumbnails.
+        for (var i = 0, f; f = files[i]; i++) {
+
+            // Only process image files.
+            if (!f.type.match('image.*')) {
+                continue;
+            }
+
+
+            var reader = new FileReader();
+
+
+            //$('#files').append(files[i]);
+
+            // Closure to capture the file information.
+            reader.onload = (function (theFile) {
+                return function (e) {
+                    // Render thumbnail.
+                    var span = document.createElement('span');
+                    span.innerHTML = ['<img class="thumb" src="', e.target.result,
+                                  '" title="', escape(theFile.name), '"/>'].join('');
+                    document.getElementById('list').insertBefore(span, null);
+
+                    images.push(e.target.result);
+                };
+            })(f);
+
+            // Read in the image file as a data URL.
+            reader.readAsDataURL(f);
+
+        }
+    }
+
+    ////////////////////////////////////////////////////////////////////
+    //// Save info
+    //  Declare SQL Query for SQLite
+
+    var createStatement = "CREATE TABLE IF NOT EXISTS app_cutomer_image_detail (cusImageId INTEGER PRIMARY KEY AUTOINCREMENT, cnic TEXT, name TEXT, address TEXT, serial TEXT, type TEXT, latlng TEXT, empId INTEGER, createdOn TIMESTAMP DEFAULT (datetime('now','localtime')))";
+
+    var createStatementImage = "CREATE TABLE IF NOT EXISTS app_image_detail (imgId INTEGER PRIMARY KEY AUTOINCREMENT, imgName TEXT, cusImageId INTEGER)";
+
+    var selectAllStatement = "SELECT * FROM app_cutomer_image_detail";
+
+    var selectAllStatementById = "SELECT * FROM app_image_detail";
+
+    var insertStatement = "INSERT INTO app_cutomer_image_detail (cnic, name, address, serial, type, latlng, empId) VALUES (?, ?, ?, ?, ?, ?, ?)";
+
+    var insertStatementImage = "INSERT INTO app_image_detail (imgName, cusImageId) VALUES (?, ?)";
+
+    var updateStatement = "UPDATE app_cutomer_image_detail SET username = ?, useremail = ? WHERE id=?";
+
+    var deleteStatement = "DELETE FROM app_cutomer_image_detail WHERE cusImageId=?";
+
+    var dropStatement = "DROP TABLE app_cutomer_image_detail";
+
+    var dropStatementImages = "DROP TABLE app_image_detail";
+
+    var db = openDatabase("TempDB", "1.0", "App Temp Table", 200000);  // Open SQLite Database
+
+    var dataset;
+
+    var DataType;
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    if (readCookie("canupload") == "0") {
+        $('#liimages').hide();
+    }
+
+    function initDatabase()  // Function Call When Page is ready.
+    {
+        try {
+            if (!window.openDatabase)  // Check browser is supported SQLite or not.
+            {
+                alert('Databases are not supported in this browser.');
+            }
+            else {
+                createTable();  // If supported then call Function for create table in SQLite
+            }
+        }
+        catch (e) {
+            if (e == 2) {
+                // Version number mismatch.
+                console.log("Invalid database version.");
+            } else {
+                console.log("Unknown error " + e + ".");
+            }
+            return;
+        }
+    }
+
+    function createTable()  // Function for Create Table in SQLite.
+    {
+        db.transaction(function (tx) { tx.executeSql(createStatement, [], null, onError); });
+        db.transaction(function (tx) { tx.executeSql(createStatementImage, [], null, onError); });
+    }
+
+    function insertRecord() // Get value from Input and insert record . Function Call when Save/Submit Button Click..
+    {
+        var insertedId = 0;
+        var id = readCookie("uid");
+        var postData = $('#frmUpload').serializeArray();
+        db.transaction(function (tx) {
+            tx.executeSql(insertStatement, [postData[0].value, postData[1].value, postData[2].value, postData[3].value, postData[4].value, postData[5].value, id],
+                function (tx, results) {
+                    insertedId = results.insertId; // this is the id of the insert just performed
+                    db.transaction(function (tx) {
+                        for (var i = 0; i < images.length; i++) {
+                            tx.executeSql(insertStatementImage, [images[i], insertedId], null, onError);
+                        }
+
+                        alert('No internet. Record saved to backlogs.');
+                        swiperParent.swipeTo(0);
+                        $('#header').animate({ 'top': '-100px' }, 400);
+                        $('.sliderbg').html('');
+                    });
+
+                }, onError);
+        });
+    }
+
+    function onError(tx, error) // Function for Hendeling Error...
+    {
+        alert(error.message);
+    }
+
+    $('#btnDb').click(function () {
+        dropTable();
+        initDatabase();
+        insertRecord();
+    });
+
+    $("#frmUpload").submit(function (e) {
+        //prevent Default functionality
+        e.preventDefault();
+
+        $('#eid').val(readCookie("uid"));
+
+        if (readCookie("canupload") == "0") {
+            $('.pages_container').mask("");
+            var postData = $(this).serializeArray();
+            var formURL = 'http://www.slamslogic.com/britelite/service/app/uploadcustomerimg.php?' + $.param(postData);
+            $.ajax(
+            {
+                url: formURL,
+                type: "POST",
+                data: { images: images },
+                datatype: "json",
+                success: function (data, textStatus, jqXHR) {
+                    if (data == 'success') {
+                        alert('Successfully Uploaded.');
+                        swiperParent.swipeTo(0);
+                        $('#header').animate({ 'top': '-100px' }, 400);
+                        $('.sliderbg').html('');
+                        $('.pages_container').unmask();
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $('.pages_container').unmask();
+                    if (jqXHR.status == 0) {
+                        initDatabase();
+                        insertRecord();
+                    }
+                    else {
+                        alert(textStatus);
+                    }
+
+                }
+            });
+            e.preventDefault();	//STOP default action
+        }
+        else {
+            if ($('#list').html() == '') {
+                alert('please select images.');
+            }
+            else {
+                $('.pages_container').mask("");
+                var postData = $(this).serializeArray();
+                var formURL = 'http://www.slamslogic.com/britelite/service/app/uploadcustomerimg.php?' + $.param(postData);
+                $.ajax(
+                {
+                    url: formURL,
+                    type: "POST",
+                    data: { images: images },
+                    datatype: "json",
+                    success: function (data, textStatus, jqXHR) {
+                        if (data == 'success') {
+                            alert('Successfully Uploaded.');
+                            swiperParent.swipeTo(0);
+                            $('#header').animate({ 'top': '-100px' }, 400);
+                            $('.sliderbg').html('');
+                            $('.pages_container').unmask();
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        $('.pages_container').unmask();
+                        if (jqXHR.status == 0) {
+                            initDatabase();
+                            insertRecord();
+                        }
+                        else {
+                            alert(textStatus);
+                        }
+
+                    }
+                });
+                e.preventDefault();	//STOP default action
+            }
+        }
+    });
+
+</script>

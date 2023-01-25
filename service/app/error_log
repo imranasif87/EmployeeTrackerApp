@@ -1,0 +1,170 @@
+[12-Aug-2016 22:09:31 Etc/GMT] PHP Notice:  Undefined index: files in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 22:21:43 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Penguins.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:21:43 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpuIfmKV' to '../images/product/Penguins.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:21:43 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Tulips.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:21:43 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php35wrzN' to '../images/product/Tulips.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:23:36 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Penguins.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:23:36 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpymWkIZ' to '../images/product/Penguins.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:23:36 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Tulips.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:23:36 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpomn6XB' to '../images/product/Tulips.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:26:18 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Tulips.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:26:18 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpRsBRON' to '../images/product/Tulips.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:28:16 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Tulips.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:28:16 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php6K41kY' to '../images/product/Tulips.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:29:25 Etc/GMT] PHP Warning:  move_uploaded_file(../images/product/Tulips.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:29:25 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php4lpo7S' to '../images/product/Tulips.jpg' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[12-Aug-2016 22:46:05 Etc/GMT] PHP Notice:  Undefined index: files in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:05:37 Etc/GMT] PHP Notice:  Undefined index: files in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:05:37 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5641e4d19.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:07:00 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:07:00 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae56946124a.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:07:58 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:07:58 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae56ce06a72.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:08:43 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:08:43 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae56fb598fc.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:09:27 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:09:27 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae572783f48.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:10:28 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:10:28 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5764759db.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:17:06 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:17:06 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae58f21d70d.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:18:47 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[12-Aug-2016 23:18:47 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5957b405d.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:21:29 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae59f97f016.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:23:24 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5a6c69fbd.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:24:49 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5ac171136.png) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:26:14 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5b1603e8f.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:28:30 Etc/GMT] PHP Warning:  file_put_contents(../images/product/abc.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:29:09 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5bc5b78f9.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[12-Aug-2016 23:32:15 Etc/GMT] PHP Warning:  file_put_contents(../images/product/57ae5c7f43147.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[13-Aug-2016 22:23:01 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:24:44 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:31:42 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:33:49 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:38:30 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[13-Aug-2016 22:38:30 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:38:40 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[13-Aug-2016 22:38:40 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:41:56 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:44:13 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[13-Aug-2016 22:44:13 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 22:46:23 Etc/GMT] PHP Notice:  Undefined index: cnic in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 6
+[13-Aug-2016 22:46:54 Etc/GMT] PHP Notice:  Undefined index: cnic in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 6
+[13-Aug-2016 22:53:16 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 5
+[13-Aug-2016 22:53:16 Etc/GMT] PHP Notice:  Undefined index: cnic in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 6
+[13-Aug-2016 22:53:16 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[13-Aug-2016 23:03:30 Etc/GMT] PHP Notice:  Undefined index: cnic in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 6
+[13-Aug-2016 23:20:50 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[13-Aug-2016 23:20:50 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[13-Aug-2016 23:20:50 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[13-Aug-2016 23:20:50 Etc/GMT] PHP Notice:  Undefined variable: con in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:20:50 Etc/GMT] PHP Fatal error:  Call to a member function query() on a non-object in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:22:21 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[13-Aug-2016 23:22:21 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[13-Aug-2016 23:22:21 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[13-Aug-2016 23:22:21 Etc/GMT] PHP Notice:  Undefined variable: con in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:22:21 Etc/GMT] PHP Fatal error:  Call to a member function query() on a non-object in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:24:56 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:26:01 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:26:30 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:27:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:30:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:31:27 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:33:37 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:36:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:37:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[13-Aug-2016 23:38:37 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:11:24 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:11:24 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:11:24 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:11:54 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:11:54 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:11:54 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:12:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:19:04 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:20:52 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:23:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:23:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:25:02 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:26:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:27:22 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:27:22 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:27:22 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Notice:  Undefined index: cnic in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 7
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Notice:  Undefined index: name in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 8
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Notice:  Undefined index: address in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 9
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Notice:  Undefined index: serial in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 10
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Notice:  Undefined index: type in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 11
+[14-Aug-2016 12:28:33 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 12
+[14-Aug-2016 12:29:10 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:29:10 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:29:10 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:30:13 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:30:13 Etc/GMT] PHP Warning:  include(dbcon.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:30:13 Etc/GMT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbcon.php' for inclusion (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 2
+[14-Aug-2016 12:35:07 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16
+[14-Aug-2016 12:37:11 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:39:28 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:40:24 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:41:01 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:41:02 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:41:34 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:44:32 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 7
+[14-Aug-2016 12:45:00 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:45:03 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:45:19 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:46:13 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:46:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:48:19 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:48:46 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:49:34 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:49:55 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:49:57 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 17
+[14-Aug-2016 12:56:56 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 18
+[14-Aug-2016 13:00:38 Etc/GMT] PHP Notice:  Undefined variable: conn in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 18
+[14-Aug-2016 13:00:38 Etc/GMT] PHP Warning:  mysqli_insert_id() expects parameter 1 to be mysqli, null given in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 18
+[14-Aug-2016 21:24:00 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 20
+[14-Aug-2016 21:59:58 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 21:59:58 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 22:01:10 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 22:01:10 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 22:05:36 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 22:05:36 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 22:06:57 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 22:06:57 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 22:42:49 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 22:42:49 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 22:44:00 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 22:44:00 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:00:53 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:00:53 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:03:02 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:03:02 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:04:19 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:04:19 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:05:20 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:05:20 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:13:26 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:13:26 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:14:26 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:14:26 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:18:03 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:18:03 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:18:59 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:18:59 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:39:44 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:39:44 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[14-Aug-2016 23:39:54 Etc/GMT] PHP Notice:  Undefined index: latlng in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 13
+[14-Aug-2016 23:39:54 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 15
+[16-Aug-2016 20:15:48 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 7
+[16-Aug-2016 20:15:48 Etc/GMT] PHP Notice:  Undefined index: empid in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 14
+[16-Aug-2016 20:15:48 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 21
+[16-Aug-2016 20:21:09 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 7
+[16-Aug-2016 20:21:09 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 21
+[17-Aug-2016 11:20:43 Etc/GMT] PHP Notice:  Undefined index: images in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 7
+[17-Aug-2016 11:20:43 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 21
+[19-Sep-2016 14:13:00 Etc/GMT] PHP Notice:  Undefined index: empid in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 14
+[19-Sep-2016 14:13:00 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/slamslog/public_html/britelite/service/app/uploadcustomerimg.php on line 16

@@ -1,0 +1,159 @@
+﻿.form-signin {
+
+  padding: 30px 30px 122px;
+  margin: 0 auto;
+
+   background-image:url(bg-medical.jpg) !important ;
+
+  border: 2px dotted rgba(0,0,0,0.1);  
+  }
+
+.form-signin-heading {
+    color:aliceblue;
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  margin-left:15px;
+  margin-top:10px;
+      display: block;
+    width: 80%;
+        line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.forgot {
+    margin-left:18px;
+color:aliceblue;
+}
+.remember {
+      margin-left:18px;
+color:aliceblue;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+.butn{
+    display: block;
+    width: 46%;
+        padding: 5px 8px;
+    margin-top:30px;
+      
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+   color:aliceblue;
+    background-color:#3299c6;
+    border-color: #3299c6;
+    text-decoration: none;
+        font-weight: 400;
+            text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        background-image: none;
+    border: 1px solid transparent;
+}
+.buton {
+    display: block;
+    width: 46%;
+        padding: 5px 8px;
+    margin-top:10px;
+      margin-bottom:7px;
+    font-size: 12px;
+    line-height: 1.33;
+    border-radius: 3px;
+   color:aliceblue;
+    background-color:#3299c6;
+    border-color: #3299c6;
+    text-decoration: none;
+        font-weight: 400;
+            text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        background-image: none;
+    border: 1px solid transparent;
+}
+.butninfo{
+    display: block;
+    width: 40%;
+        padding: 5px 6px;
+    margin-top:5px;
+     float:right; 
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+   color:aliceblue;
+    background-color:#3299c6;
+    border-color: #3299c6;
+    text-decoration: none;
+        font-weight: 400;
+            text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        background-image: none;
+    border: 1px solid transparent;
+}
+.capture {
+    margin-bottom: -4px;
+    height: 20px;
+    width: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    cursor:pointer;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #3299c6;
+    color: white;
+}
+.bio p {
+    margin-top:7px;
+    margin-bottom:-10px;
+}

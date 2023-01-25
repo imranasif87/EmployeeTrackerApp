@@ -1,0 +1,12 @@
+E:\Projects\Jquery_Mobile\Britelite\SFMobile\BriteliteApp\BriteliteAdmin\bin\BriteliteAdmin.dll.config
+E:\Projects\Jquery_Mobile\Britelite\SFMobile\BriteliteApp\BriteliteAdmin\bin\BriteliteAdmin.dll
+E:\Projects\Jquery_Mobile\Britelite\SFMobile\BriteliteApp\BriteliteAdmin\bin\BriteliteAdmin.pdb
+E:\Projects\Jquery_Mobile\Britelite\SFMobile\BriteliteApp\BriteliteAdmin\obj\Debug\BriteliteAdmin.csprojResolveAssemblyReference.cache
+E:\Projects\Jquery_Mobile\Britelite\SFMobile\BriteliteApp\BriteliteAdmin\obj\Debug\BriteliteAdmin.dll
+E:\Projects\Jquery_Mobile\Britelite\SFMobile\BriteliteApp\BriteliteAdmin\obj\Debug\BriteliteAdmin.pdb
+E:\Projects\Jquery_Mobile\Britelite\Slamslogic\BriteliteApp\BriteliteAdmin\bin\BriteliteAdmin.dll.config
+E:\Projects\Jquery_Mobile\Britelite\Slamslogic\BriteliteApp\BriteliteAdmin\bin\BriteliteAdmin.dll
+E:\Projects\Jquery_Mobile\Britelite\Slamslogic\BriteliteApp\BriteliteAdmin\bin\BriteliteAdmin.pdb
+E:\Projects\Jquery_Mobile\Britelite\Slamslogic\BriteliteApp\BriteliteAdmin\obj\Debug\BriteliteAdmin.csprojResolveAssemblyReference.cache
+E:\Projects\Jquery_Mobile\Britelite\Slamslogic\BriteliteApp\BriteliteAdmin\obj\Debug\BriteliteAdmin.dll
+E:\Projects\Jquery_Mobile\Britelite\Slamslogic\BriteliteApp\BriteliteAdmin\obj\Debug\BriteliteAdmin.pdb

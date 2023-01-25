@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BriteliteApp", "BriteliteApp\BriteliteApp.csproj", "{C7CB7857-3F95-43E8-847D-46E0AB731852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BriteliteAdmin", "BriteliteAdmin\BriteliteAdmin.csproj", "{07D70844-1A9A-493C-B524-7F1E487CC867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CB7857-3F95-43E8-847D-46E0AB731852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CB7857-3F95-43E8-847D-46E0AB731852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CB7857-3F95-43E8-847D-46E0AB731852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CB7857-3F95-43E8-847D-46E0AB731852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D70844-1A9A-493C-B524-7F1E487CC867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D70844-1A9A-493C-B524-7F1E487CC867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D70844-1A9A-493C-B524-7F1E487CC867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D70844-1A9A-493C-B524-7F1E487CC867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

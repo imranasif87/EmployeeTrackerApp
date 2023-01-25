@@ -1,0 +1,460 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+    <meta name="author" content="SindevoThemes" />
+    <meta name="description" content="GoMobile - A next generation web app theme" />
+    <meta name="keywords" content="mobile web app, mobile template, mobile design, mobile app design, mobile app theme, mobile wordpress theme, my mobile app" />
+    <title>Brighterlite</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <!--<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />-->
+    <link type="text/css" rel="stylesheet" href="colors/medical/medical.css" />
+    <link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css" />
+    <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+    <link type="text/css" rel="stylesheet" href="css/login.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
+    <link href="css/customLoadJquery.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery.loadmask.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="gohome"><a href="#"><img src="images/icons/home.png" alt="" title="" /></a></div>
+        <div class="gomenu"><a href="#" onclick="swiperParent.swipeTo(9);"><img src="images/icons/contact.png" alt="" title="" /></a></div>
+    </div>
+    <div class="swiper-container swiper-parent">
+        <div class="swiper-wrapper">
+
+            <!--Menu page-->
+            <div class="swiper-slide sliderbg_menu">
+                <div class="swiper-container swiper-nested">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-inner">
+                                <div class="dropdown">
+                                    <button onclick="myFunction()" class="dropbtn">Settings</button>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="#">Emp ID (<span id="spEmpId"></span>)</a>
+                                        <a href="#" onclick="showSettings();">Change Password</a>
+                                        <a href="#" id="lnkLogout">Logout</a>
+
+                                    </div>
+                                </div>
+                                <div class="logo"><a href="#"><img src="colors/medical/images/logo.png" alt="" title="" border="0" /></a></div>
+
+
+                                <div class="menu">
+                                    <ul>
+                                        <li id="newUp"><a href="#" onclick="newUpload();"><img src="images/icons/docs.png" alt="" title="" /><span>New Upload</span></a></li>
+                                        <li><a href="#" onclick="showBacklogs()"><img src="images/icons/menu.png" alt="" title="" /><span>Backlogs</span></a></li>
+                                        <li><a href="#" onclick="showAttendance();"><img src="images/icons/clients.png" alt="" title="" /><span>Attendance</span></a></li>
+                                        <li><a href="#" onclick="showProfile();"><img src="images/icons/about.png" alt="" title="" /><span>Profile</span></a></li>
+                                        <li><a href="#" onclick="notifications();"><img src="images/icons/layout.png" alt="" title="" /><span>Notifications</span></a></li>
+                                    </ul>
+
+                                    <div class="clearfix"></div>
+                                    <div id="latlng"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+
+            <!--Page 1 content-->
+            <div id="newupload" class="swiper-slide sliderbg">
+
+            </div>
+
+            <!--Page 2 content-->
+            <div id="backlogs" class="swiper-slide sliderbg">
+
+            </div>
+
+            <!--Page 3 content-->
+            <div id="attendance" class="swiper-slide sliderbg">
+
+            </div>
+
+
+            <!--Page 4 content-->
+            <div id="profile" class="swiper-slide sliderbg">
+
+            </div>
+
+            <!--Page 5 content-->
+            <div id="settings" class="swiper-slide sliderbg">
+
+            </div>
+
+            <!--Page 6 content-->
+            <div id="notifi" class="swiper-slide sliderbg">
+
+            </div>
+            <!--End of pages-->
+        </div>
+        <div class="pagination"></div>
+    </div>
+
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.swipebox.js"></script>
+    <script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+    <script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+    <script type="text/javascript" src="js/jquery.tabify.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/code.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+    <script type="text/javascript">
+
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        if (readCookie("canupload") == "0") {
+            $('#newUp').hide();
+        }
+
+        function newUpload() {
+            $('#newupload').load('newupload.html');
+            swiperParent.swipeTo(1);
+            $('#header').animate({ 'top': '0px' }, 400);
+        }
+
+        function showBacklogs() {
+            $('#backlogs').load('backlogs.html');
+            swiperParent.swipeTo(2);
+            $('#header').animate({ 'top': '0px' }, 400);
+        }
+        function showAttendance() {
+            $('#attendance').load('attendance.html');
+            swiperParent.swipeTo(3);
+            $('#header').animate({ 'top': '0px' }, 400);
+        }
+        function showProfile() {
+            $('#profile').load('profile.html');
+            swiperParent.swipeTo(4);
+            $('#header').animate({ 'top': '0px' }, 400);
+        }
+        function showSettings() {
+            $('#settings').load('settings.html');
+            swiperParent.swipeTo(5);
+            $('#header').animate({ 'top': '0px' }, 400);
+        }
+        function notifications() {
+            $('#notifi').load('notifi.html');
+            swiperParent.swipeTo(6);
+            $('#header').animate({ 'top': '0px' }, 400);
+        }
+
+        $(document).ready(function () {
+            if (readCookie("uid") != null) {
+                $('#spEmpId').html(readCookie("uid"));
+            }
+            ////////////////////////////////////////////////////////////////////
+            //////////   Mark Attendance
+            var createStatement = "CREATE TABLE IF NOT EXISTS app_employee_attendance (attId INTEGER PRIMARY KEY AUTOINCREMENT, latitude TEXT, longitude TEXT, empId INTEGER, attDate TEXT, attTime TEXT)";
+
+            var createStatementTemp = "CREATE TABLE IF NOT EXISTS app_employee_attendance_temp (latitude TEXT, longitude TEXT, empId INTEGER, attDate TEXT, attTime TEXT)";
+
+            var selectAllStatement = "SELECT * FROM app_employee_attendance Where attDate = ? Order By attId desc";
+
+            var selectAllStatementTemp = "SELECT * FROM app_employee_attendance_temp";
+
+            var insertStatement = "INSERT INTO app_employee_attendance (latitude, longitude, empId, attDate, attTime) VALUES (?, ?, ?, ?, ?)";
+
+            var insertStatementTemp = "INSERT INTO app_employee_attendance_temp (latitude, longitude, empId, attDate, attTime) VALUES (?, ?, ?, ?, ?)";
+
+            var dropStatement = "DROP TABLE app_employee_attendance";
+
+            var dropStatementTemp = "DROP TABLE app_employee_attendance_temp";
+
+            var deleteStatementTemp = "Delete From app_employee_attendance_temp where latitude = ? and longitude = ? and empId = ? and attDate = ? and attTime = ?";
+
+            var db = openDatabase("TempDB", "1.0", "App Temp Table", 200000);  // Open SQLite Database
+
+            var dataset;
+
+            var DataType;
+
+            if (navigator.geolocation) {
+                watchID = navigator.geolocation.watchPosition(drawGoogleMap, handleError, { enableHighAccuracy: true });
+            } else {
+                alert("Geolocation is not Supported for this browser/OS.");
+            }
+
+            function drawGoogleMap(position) {
+                if (readCookie("uid") == null) {
+                    //document.location.href = "index.html";
+                }
+                var latitude = position.coords.latitude,
+                longitude = position.coords.longitude;
+                $('#txtlatlng').val(latitude + ',' + longitude);
+                MarkAttendance(latitude, longitude);
+            }
+
+            function handleError(error) {
+                var container = document.getElementById('map-canvas');
+                switch (error.code) {
+                    case error.PERMISSION_DENIED:
+                        container.innerHTML = "User denied the request for Geolocation."
+                        break;
+                    case error.POSITION_UNAVAILABLE:
+                        container.innerHTML = "Location information is unavailable."
+                        break;
+                    case error.TIMEOUT:
+                        container.innerHTML = "The request to get user location timed out."
+                        break;
+                    case error.UNKNOWN_ERROR:
+                        container.innerHTML = "An unknown error occurred."
+                        break;
+                }
+            }
+
+            function MarkAttendance(latitude, longitude) {
+                var todayDate = new Date();
+                var date = todayDate.toLocaleDateString("en-US").split("/");
+                if (date.length == 3)
+                {
+                    date = date[1] + '/' + date[0] + '/' + date[2];
+                }
+                else
+                {
+                    date = todayDate.toLocaleDateString("en-US").split(" ");
+                    var month = getMonthNumber(date[1]);
+                    date = date[0] + '/' + month + '/' + date[2];
+                }
+                //alert(date);
+                var time = ('0' + todayDate.getHours()).substr(-2) + ':' + ('0' + todayDate.getMinutes()).substr(-2);
+               //alert(time);
+                
+                //dropTable();
+                
+                initDatabase();
+                getTodayAttendance(date, latitude, longitude, time);
+                UploadAttendance();
+            }
+
+            function getMonthNumber(m) {
+                switch (m) {
+                    case 'January':
+                        return '1';
+                        break;
+                    case 'February':
+                        return '2';
+                        break;
+                    case 'March':
+                        return '3';
+                        break;
+                    case 'April':
+                        return '4';
+                        break;
+                    case 'May':
+                        return '5';
+                        break;
+                    case 'June':
+                        return '6';
+                        break;
+                    case 'July':
+                        return '7';
+                        break;
+                    case 'August':
+                        return '8';
+                        break;
+                    case 'September':
+                        return '9';
+                        break;
+                    case 'October':
+                        return '10';
+                        break;
+                    case 'November':
+                        return '11';
+                        break;
+                    case 'December':
+                        return '12';
+                        break;
+                }
+            }
+
+            function getTodayAttendance(date, latitude, longitude, time) {
+                db.transaction(function (tx) {
+                    tx.executeSql(selectAllStatement, [date], function (tx, result) {
+                        dataset = result.rows;
+                        if (dataset.length <= 8) {
+                            if (dataset.length == 0) {
+                                insertRecord(date, latitude, longitude, time);
+                            }
+                            else {
+                                var hour = parseInt((dataset.item(0)['attTime']).split(":")[0]);
+                                var curHour = parseInt(time.split(":")[0]);
+                                var diff = curHour - hour;
+                                if (diff < 0) {
+                                    diff *= -1;
+                                }
+
+                                if (diff >= 1) {
+                                    insertRecord(date, latitude, longitude, time);
+                                }
+                            }
+                        }
+                    });
+                });
+            }
+
+            function insertRecord(date, latitude, longitude, time) // Get value from Input and insert record . Function Call when Save/Submit Button Click..
+            {
+                var id = readCookie("uid");
+                db.transaction(function (tx) {
+                    tx.executeSql(insertStatement, [latitude, longitude, id, date, time], null, onError);
+                    tx.executeSql(insertStatementTemp, [latitude, longitude, id, date, time], null, onError);
+                });
+            }
+
+            function UploadAttendance() {
+                var check = false;
+                db.transaction(function (tx) {
+                    tx.executeSql(selectAllStatementTemp, [], function (tx, result) {
+                        dataset = result.rows;
+                        for (var i = 0; i < dataset.length; i++) {
+                            item = dataset.item(i);
+                            var formURL = 'http://www.slamslogic.com/britelite/service/app/uploadattendance.php';//?' + $.param(customers[i]);
+                            $.ajax(
+                              {
+                                  url: formURL,
+                                  type: "POST",
+                                  data: item,
+                                  datatype: "json",
+                                  success: function (data, textStatus, jqXHR) {
+                                      if (data == 'success') {
+                                          db.transaction(function (tx) { tx.executeSql(deleteStatementTemp, [item['latitude'], item['longitude'], item['empId'], item['attDate'], item['attTime']], null, onError); });
+                                      }
+                                  },
+                                  error: function (jqXHR, textStatus, errorThrown) {
+                                      if (jqXHR.status == 0) {
+                                      }
+                                      else {
+                                      }
+                                  }
+                              });
+                        }
+                    });
+                });
+            }
+
+            function initDatabase()  // Function Call When Page is ready.
+            {
+                try {
+                    if (!window.openDatabase)  // Check browser is supported SQLite or not.
+                    {
+                        alert('Databases are not supported in this browser.');
+                    }
+                    else {
+                       // alert('db Initialized.')
+                        createTable();  // If supported then call Function for create table in SQLite
+                    }
+                }
+                catch (e) {
+                    if (e == 2) {
+                        // Version number mismatch.
+                        console.log("Invalid database version.");
+                    } else {
+                        console.log("Unknown error " + e + ".");
+                    }
+                    return;
+                }
+            }
+
+            function dropTable() // Function Call when Drop Button Click.. Talbe will be dropped from database.
+            {
+                db.transaction(function (tx) { tx.executeSql(dropStatement, [], null, onError); });
+                db.transaction(function (tx) { tx.executeSql(dropStatementTemp, [], null, onError); });
+            }
+
+            function createTable()  // Function for Create Table in SQLite.
+            {
+                db.transaction(function (tx) { tx.executeSql(createStatement, [], null, onError); });
+                db.transaction(function (tx) { tx.executeSql(createStatementTemp, [], null, onError); });
+            }
+
+            function onError(tx, error) // Function for Hendeling Error...
+            {
+                alert("dbError: " + error.message);
+            }
+            //////////////////////////////////////////////
+            ///// logout()
+            $('#lnkLogout').click(function () {
+                eraseCookie("uid");
+                eraseCookie("canupload");
+                document.location.href = "index.html";
+            });
+
+            function createCookie(name, value, days) {
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    var expires = "; expires=" + date.toGMTString();
+                }
+                else var expires = "";
+                document.cookie = name + "=" + value + expires + "; path=/";
+            }
+
+            function eraseCookie(name) {
+                createCookie(name, "", -1);
+            }
+
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+        });
+
+    </script>
+
+    <!--Dropdown-->
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>

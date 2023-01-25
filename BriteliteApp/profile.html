@@ -1,0 +1,85 @@
+﻿<div class="swiper-container swiper-nested">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="slide-inner">
+                <div class="pages_container">
+                    <h2 class="page_title">Profile</h2>
+
+                    <div>
+                        <center> <img id="imgProf" src="" alt="img" width="110" height="140" /></center>
+                    </div>
+
+                    <div class="bio">
+                        <div>
+                            <p><b>Name : </b><label name="fname"></label></p>
+                        </div>
+                        <hr />
+                        <div>
+                            <p><b>Designation : </b> <label name="designation"></label></p>
+                        </div>
+                        <hr />
+                        <div>
+                            <p><b>Address: </b> <label name="address"></label> </p>
+                        </div>
+                        <hr />
+                        <div>
+                            <p><b>Contact Number: </b> <label name="mobile"></label></p>
+                        </div>
+                        <hr />
+                        <div>
+                            <p><b>Email: </b><label name="email"></label></p>
+                        </div>
+                        <hr />
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="scrolltop"><a href="#"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                </div>
+                <!--End of page container-->
+            </div>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<script>
+    $('.pages_container').mask();
+    var formURL = 'http://www.slamslogic.com/britelite/service/app/getemployee.php?empId=' + readCookie("uid");
+    $.ajax(
+    {
+        url: formURL,
+        type: "POST",
+        data: {},
+        datatype: "json",
+        success: function (data, textStatus, jqXHR) {
+            var record = JSON.parse(data);
+            if (record.length > 0) {
+                $("label[name=fname]").html(record[0].fname + ' ' + record[0].lname);
+                $("label[name=designation]").html(record[0].designation);
+                $("label[name=email]").html(record[0].email);
+                $("label[name=mobile]").html(record[0].mobile);
+                $("label[name=address]").html(record[0].address);
+                $("#imgProf").attr('src', 'http://www.slamslogic.com/britelite/images/employee/' + record[0].photo);
+
+                $('.pages_container').unmask();
+            }
+            else {
+                alert('There is no record to show.');
+                $('.pages_container').unmask();
+            }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            $('.pages_container').unmask();
+        }
+    });
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+</script>

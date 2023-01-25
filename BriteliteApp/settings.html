@@ -1,0 +1,86 @@
+﻿<div class="swiper-container swiper-nested">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="slide-inner">
+                <div class="pages_container">
+                    <form id="frmSetting" method="post" name="Login_Form" class="form-signin">
+
+                        <h3 class="form-signin-heading">Settings </h3>
+                        <hr class="colorgraph" /><br />
+
+                        <input type="password" class="form-control" name="oldpassword" placeholder="Old Password" required="" />
+                        <input type="password" class="form-control" id="password" name="newpassword" placeholder="New Password" required="" />
+                        <input type="password" class="form-control" id="confirm_password" name="Password" placeholder="Confirm Password" required="" />
+
+                        <input type="hidden" name="id" id="eId" />
+                        <center> <button class="butn" name="Submit" value="Login" type="Submit">Save</button></center>
+                    </form>
+                </div>
+                <!--End of page container-->
+            </div>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<script type="text/javascript" src="js/code.js"></script>
+
+<script>
+
+    var password = document.getElementById("password")
+, confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword() {
+        if (password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_password.setCustomValidity('');
+        }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+
+    $('#eId').val(readCookie("uid"));
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    $("#frmSetting").submit(function (e) {
+        e.preventDefault();	//STOP default action
+        $('#frmSetting').mask("");
+        var postData = $(this).serializeArray();
+        var formURL = 'http://www.slamslogic.com/britelite/service/app/changepassword.php';
+        $.ajax(
+        {
+            url: formURL,
+            type: "POST",
+            data: postData,
+            datatype: "json",
+            success: function (data, textStatus, jqXHR) {
+                if (data == 'success') {
+                    $('#frmSetting').unmask();
+                    alert('Updated. Next time login with new password.');
+                    swiperParent.swipeTo(0);
+                    $('#header').animate({ 'top': '-100px' }, 400);
+                }
+                else {
+                    alert('Not updated. Try later.');
+                    $('#frmLogin').unmask();
+                    e.preventDefault();	//STOP default action
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert('error');
+                $('#frmSetting').unmask();
+            }
+        });
+        e.preventDefault();	//STOP default action
+    });
+</script>

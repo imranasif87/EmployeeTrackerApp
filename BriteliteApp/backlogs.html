@@ -1,0 +1,168 @@
+﻿<div class="swiper-container swiper-nested">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="slide-inner">
+                <div class="pages_container">
+                    <h2 class="page_title">Backlogs</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Serial</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbDetail"></tbody>
+                    </table>
+
+                    <button class="butninfo form_submit" id="btnSubmit" onclick="UploadAll()" value="Send Info" type="button">Upload</button>
+
+                    <div class="clearfix"></div>
+                    <div class="scrolltop"><a href="#"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                </div>
+                <!--End of page container-->
+            </div>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<script type="text/javascript" src="js/code.js"></script>
+<!--<script src="js/jquery-1.10.1.min.js"></script>-->
+
+<script>
+    $('.pages_container').mask("");
+    var selectAllStatement = "SELECT * FROM app_cutomer_image_detail";
+    var selectAllStatementImages = "SELECT * FROM app_image_detail";
+    var dropStatement = "DROP TABLE app_cutomer_image_detail";
+    var dropStatementImages = "DROP TABLE app_image_detail";
+    var db = openDatabase("TempDB", "1.0", "App Temp Table", 200000);  // Open SQLite Database
+    var dataset;
+    var DataType;
+
+    showRecords();
+
+    function dropTable() // Function Call when Drop Button Click.. Talbe will be dropped from database.
+    {
+        db.transaction(function (tx) { tx.executeSql(dropStatement, [], goToHome(), onError); });
+        db.transaction(function (tx) { tx.executeSql(dropStatementImages, [], null, onError); });
+    }
+
+    function onError(tx, error) // Function for Hendeling Error...
+    {
+        alert(error.message);
+    }
+
+    function goToHome()
+    {
+        swiperParent.swipeTo(0);
+        $('#header').animate({ 'top': '-100px' }, 400);
+        $('.sliderbg').html('');
+    }
+
+    function showRecords() // Function For Retrive data from Database Display records as list
+    {
+        $('#btnSubmit').hide();
+        var tbl = '';
+        if (!window.openDatabase)  // Check browser is supported SQLite or not.
+        {
+            alert('Databases are not supported in this browser.');
+        }
+        else {
+            db.transaction(function (tx) {
+                tx.executeSql(selectAllStatement, [], function (tx, result) {
+                    dataset = result.rows;
+                    var item = null;
+                    for (var i = 0; i < dataset.length; ++i) {
+                        item = dataset.item(i);
+                        var date = item['createdOn'].split(" ")[0].split("-");
+                        date = date[2] + '/' + date[1] + '/' + date[0];
+                        var time = item['createdOn'].split(" ")[1].split(":");
+                        time = time[0] + ':' + time[1];
+                        tbl += '<tr>'
+                                    + '<td>' + item['serial'] + '</td>'
+                                    + '<td>' + date + '</td>' // 7/13/2016
+                                    + '<td>' + time + '</td>'  //16:00
+                                   + '</tr>';
+                        //alert(item['cnic'] + ' , ' + item['name'] + ' , ' + item['address'] + ' , ' + item['serial'] + ' , ' + item['type'] + ' , ' + item['Latitude'] + ' , ' + item['Longitude'] + ' , ' + item['createdOn']);
+                    }
+                    if (dataset.length > 0) {
+                        $('#tbDetail').html(tbl);
+                        $('#btnSubmit').show();
+                    }
+                    $('.pages_container').unmask();
+                });
+                $('.pages_container').unmask();
+            });
+        }
+    }
+    //////////////////////////////////////////////
+    /// Upload All data
+    function UploadAll() {
+        $('.pages_container').mask("");
+        var images = [];
+        var customers = [];
+        var imagesDetail = [];
+        var count = 0;
+
+        db.transaction(function (tx) {
+            tx.executeSql(selectAllStatement, [], function (tx, result) {
+                dataset = result.rows;
+                var item = null;
+                for (var i = 0; i < dataset.length; i++) {
+                    item = dataset.item(i);
+                    customers.push(item);
+                }
+
+                tx.executeSql(selectAllStatementImages, [], function (tx, res) {
+                    ds = res.rows;
+                    var row = null;
+                    for (var j = 0; j < ds.length; j++) {
+                        row = ds.item(j);
+                        imagesDetail.push(row);
+                    }
+
+                    for (var i = 0; i < customers.length; i++) {
+                        images = [];
+                        for (var j = 0; j < imagesDetail.length; j++) {
+                            if (imagesDetail[j]['cusImageId'] === customers[i]['cusImageId']) {
+                                images.push(imagesDetail[j]['imgName']);
+                            }
+                        }
+
+                        if (images.length > 0) {
+                            var formURL = 'http://www.slamslogic.com/britelite/service/app/uploadcustomerimg.php?' + $.param(customers[i]);
+                            $.ajax(
+                              {
+                                  url: formURL,
+                                  type: "POST",
+                                  data: { images: images },
+                                  datatype: "json",
+                                  success: function (data, textStatus, jqXHR) {
+                                      if (data == 'success') {
+                                          if (customers.length - 1 == count) {
+                                              $('.pages_container').unmask();
+                                              dropTable();
+                                          }
+                                          count++;
+                                      }
+                                  },
+                                  error: function (jqXHR, textStatus, errorThrown) {
+                                      if (jqXHR.status == 0) {
+                                          alert('There is no internet connection.');
+                                          swiperParent.swipeTo(0);
+                                          $('#header').animate({ 'top': '-100px' }, 400);
+                                          $('.sliderbg').html('');
+                                      }
+                                      else {
+                                          alert("Server Error");
+                                      }
+                                  }
+                              });
+                        }
+                    }
+                });
+            });
+        });
+    }
+
+</script>

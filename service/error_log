@@ -1,0 +1,224 @@
+[02-Aug-2016 11:31:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/slamslog/public_html/britelite/service/adminlogin.php on line 9
+[02-Aug-2016 11:38:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/slamslog/public_html/britelite/service/adminlogin.php on line 9
+[02-Aug-2016 11:38:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/slamslog/public_html/britelite/service/adminlogin.php on line 9
+[02-Aug-2016 12:03:44 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:04:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/slamslog/public_html/britelite/service/adminlogin.php on line 9
+[02-Aug-2016 12:04:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/slamslog/public_html/britelite/service/adminlogin.php on line 9
+[02-Aug-2016 12:04:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/slamslog/public_html/britelite/service/adminlogin.php on line 9
+[02-Aug-2016 12:06:16 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:06:16 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:06:59 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:06:59 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:07:31 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:07:31 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:08:30 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:08:30 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:08:30 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:08:30 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:08:34 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:08:34 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:08:34 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:08:34 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:09:30 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:09:30 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:09:30 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:09:30 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:09:43 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:09:43 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:09:44 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:09:44 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:09:44 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:09:44 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:10:03 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:10:03 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:10:03 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:10:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:10:06 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:10:06 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:10:06 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:10:06 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:11:22 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:11:22 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:11:22 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:11:22 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:11:26 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:11:26 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:11:26 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:11:26 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:13:01 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:13:01 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:13:01 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:13:01 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:13:22 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:13:22 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:13:22 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:13:22 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:17:09 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'localhost' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:17:09 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:17:09 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:17:09 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:17:27 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'localhost' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:17:27 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:17:27 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:17:27 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:18:19 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'localhost' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:18:19 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:18:19 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:18:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:18:22 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'localhost' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:18:22 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 5
+[02-Aug-2016 12:18:22 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 6
+[02-Aug-2016 12:18:22 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:20:18 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:20:18 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 7
+[02-Aug-2016 12:20:18 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:20:18 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 10
+[02-Aug-2016 12:20:21 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:20:21 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 7
+[02-Aug-2016 12:20:21 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:20:21 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 10
+[02-Aug-2016 12:22:21 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:22:21 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 7
+[02-Aug-2016 12:22:21 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:22:21 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 10
+[02-Aug-2016 12:22:23 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:22:23 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 7
+[02-Aug-2016 12:22:23 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 8
+[02-Aug-2016 12:22:23 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/slamslog/public_html/britelite/service/adminlogin.php on line 10
+[02-Aug-2016 12:23:44 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:25:01 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'208.91.198.96' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:25:44 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'slamslog_brite'@'localhost' to database 'slamslog_briteliteDB' in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:27:28 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'slamslogic.com:2082' (2) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:27:31 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'slamslogic.com:2082' (0) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:28:00 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'slamslogic.com:2082' (0) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:28:25 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '208.91.198.96:2082' (2) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:28:28 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '208.91.198.96:2082' (0) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:28:52 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '208.91.198.96:2082' (2) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:28:59 Etc/GMT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host '208.91.198.96:2082' (0) in /home/slamslog/public_html/britelite/service/dbcon.php on line 3
+[02-Aug-2016 12:29:42 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'slamslog'@'localhost' (using password: NO) in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:29:42 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:05 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'slamslog'@'localhost' (using password: NO) in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:05 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:08 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'slamslog'@'localhost' (using password: NO) in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:08 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:22 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'slamslog'@'localhost' (using password: NO) in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:22 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:25 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'slamslog'@'localhost' (using password: NO) in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:25 Etc/GMT] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 12:31:45 Etc/GMT] PHP Notice:  Undefined index: username in /home/slamslog/public_html/britelite/service/adminlogin.php on line 10
+[02-Aug-2016 12:31:45 Etc/GMT] PHP Notice:  Undefined index: password in /home/slamslog/public_html/britelite/service/adminlogin.php on line 11
+[02-Aug-2016 18:27:40 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:28:31 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:28:31 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:28:31 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:29:15 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:29:15 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:29:15 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:29:27 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:29:27 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:29:27 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:36:31 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:36:31 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:36:31 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:36:42 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:36:42 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:36:42 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:41:29 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:41:29 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:41:29 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:44:50 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:49:43 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:51:46 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:54:44 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:56:37 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:56:58 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: department in /home/slamslog/public_html/britelite/service/addemployee.php on line 10
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: phone in /home/slamslog/public_html/britelite/service/addemployee.php on line 11
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: mobile in /home/slamslog/public_html/britelite/service/addemployee.php on line 12
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: address in /home/slamslog/public_html/britelite/service/addemployee.php on line 13
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:59:14 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: department in /home/slamslog/public_html/britelite/service/addemployee.php on line 10
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: phone in /home/slamslog/public_html/britelite/service/addemployee.php on line 11
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: mobile in /home/slamslog/public_html/britelite/service/addemployee.php on line 12
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: address in /home/slamslog/public_html/britelite/service/addemployee.php on line 13
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 18:59:46 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: department in /home/slamslog/public_html/britelite/service/addemployee.php on line 10
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: phone in /home/slamslog/public_html/britelite/service/addemployee.php on line 11
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: mobile in /home/slamslog/public_html/britelite/service/addemployee.php on line 12
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: address in /home/slamslog/public_html/britelite/service/addemployee.php on line 13
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 19:22:11 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 19:23:43 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 19:25:40 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 19:26:41 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 19:26:41 Etc/GMT] PHP Notice:  Undefined index: emp_type in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 19:26:41 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/slamslog/public_html/britelite/service/addemployee.php on line 19
+[02-Aug-2016 19:32:59 Etc/GMT] PHP Warning:  move_uploaded_file(images/employeeDeltaExperienceLetter.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 5
+[02-Aug-2016 19:32:59 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpQRbNHp' to 'images/employeeDeltaExperienceLetter.jpg' in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 5
+[02-Aug-2016 19:34:01 Etc/GMT] PHP Warning:  move_uploaded_file(images/employeeDeltaExperienceLetter.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:34:01 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpxXoW3g' to 'images/employeeDeltaExperienceLetter.jpg' in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:35:22 Etc/GMT] PHP Warning:  move_uploaded_file(images/employeeDeltaExperienceLetter.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:35:22 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpgyTPpC' to 'images/employeeDeltaExperienceLetter.jpg' in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:35:51 Etc/GMT] PHP Warning:  move_uploaded_file(images/employee/DeltaExperienceLetter.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:35:51 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phphRXLD8' to 'images/employee/DeltaExperienceLetter.jpg' in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:37:33 Etc/GMT] PHP Warning:  move_uploaded_file(images/employee/DeltaExperienceLetter.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:37:33 Etc/GMT] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phppKFQyb' to 'images/employee/DeltaExperienceLetter.jpg' in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:46:17 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 4
+[02-Aug-2016 19:46:17 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:47:41 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 4
+[02-Aug-2016 19:47:41 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:49:24 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 4
+[02-Aug-2016 19:49:24 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:51:45 Etc/GMT] PHP Notice:  Undefined index: fileupload in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 4
+[02-Aug-2016 19:51:45 Etc/GMT] PHP Notice:  Undefined index: fileupload in /home/slamslog/public_html/britelite/service/uploademployeeimg.php on line 6
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 19:53:48 Etc/GMT] PHP Notice:  Undefined index: photo in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 19:56:24 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 20:01:21 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: fname in /home/slamslog/public_html/britelite/service/addemployee.php on line 3
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: lname in /home/slamslog/public_html/britelite/service/addemployee.php on line 4
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: designation in /home/slamslog/public_html/britelite/service/addemployee.php on line 5
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: qualification in /home/slamslog/public_html/britelite/service/addemployee.php on line 6
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: experience in /home/slamslog/public_html/britelite/service/addemployee.php on line 7
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: email in /home/slamslog/public_html/britelite/service/addemployee.php on line 8
+[02-Aug-2016 20:02:29 Etc/GMT] PHP Notice:  Undefined index: image in /home/slamslog/public_html/britelite/service/addemployee.php on line 9
